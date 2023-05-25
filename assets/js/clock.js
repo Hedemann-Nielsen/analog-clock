@@ -25,7 +25,8 @@ function updateClock() {
 
     //indhent nuværende dato
     let currentDay = currentTime.getDate();
-    let currentMonth = currentTime.getMonth();
+    let currentMonth = currentTime.getMonth() + 1;
+    console.log(currentMonth);
     let currentYear = currentTime.getFullYear();
 
     //inset dato i uret
